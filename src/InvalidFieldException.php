@@ -31,7 +31,7 @@ class InvalidFieldException extends InvalidArgumentException
 	 *
 	 * @since 2.0
 	 */
-	public function __construct($message = '', $code = 0, Exception $previous = null)
+	public function __construct($message = '', $code = 0, ?Exception $previous = null)
 	{
 		$error = 'VAL-002: The field ['.$message.'] is not known.';
 

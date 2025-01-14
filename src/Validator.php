@@ -179,7 +179,7 @@ class Validator implements ValidatableInterface
 	 *
 	 * @since 2.0
 	 */
-	public function run($data, ResultInterface $result = null)
+	public function run($data, ?ResultInterface $result = null)
 	{
 		if ($result === null)
 		{
@@ -215,7 +215,7 @@ class Validator implements ValidatableInterface
 	 *
 	 * @since 2.0
 	 */
-	public function runField($field, array $data, ResultInterface $result = null)
+	public function runField($field, array $data, ?ResultInterface $result = null)
 	{
 		if ($result === null)
 		{

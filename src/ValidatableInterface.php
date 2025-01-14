@@ -27,5 +27,5 @@ interface ValidatableInterface
 	 *
 	 * @since 2.0
 	 */
-	public function run($data, ResultInterface $result = null);
+	public function run($data, ?ResultInterface $result = null);
 }
